@@ -8,7 +8,7 @@ import ffn
 import io
 import streamlit as st
 import base64 
-from cryptography.fernet import Fernet
+#from cryptography.fernet import Fernet
 
 @st.cache_data(show_spinner = False)
 def reading_returns_file():
